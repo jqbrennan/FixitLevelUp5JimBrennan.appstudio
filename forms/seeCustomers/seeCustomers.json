@@ -4,19 +4,47 @@
   "attributes": "", 
   "background": "", 
   "backgroundimage": "", 
-  "borderColor": "", 
-  "borderStyle": "", 
-  "borderWidth": "", 
+  "borderColor": "red", 
+  "borderStyle": "dashed", 
+  "borderWidth": "3", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
-  "children": [], 
+  "children": [
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "seeCustomers", 
+        "Elements", 
+        "drpSee.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "seeCustomers", 
+        "Elements", 
+        "txtSee.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "seeCustomers", 
+        "Elements", 
+        "hamSee.json"
+      ]
+    }
+  ], 
   "class": "", 
   "designHeight": 0, 
   "designWidth": 0, 
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form1", 
+  "id": "seeCustomers", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -24,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "seeCustomers.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
